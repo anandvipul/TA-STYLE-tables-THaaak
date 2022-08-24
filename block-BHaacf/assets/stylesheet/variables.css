@@ -1,0 +1,12 @@
+:root {
+    /* Declaring Colors */
+    --body-shade-bg: #E6E6E6;
+    --punch-shade-bg: #EFEFEF;
+    --green-front: #6AC6BB;
+    --pink-front: #C66995;
+    /* Declaring Structures */
+    --main-content-width: 75vw;
+    --nav-bar-height: 15vh;
+    --nav-bar-horizontal-offset: var(--nav-bar-height);
+    --general-padding: 4vh; 
+}
