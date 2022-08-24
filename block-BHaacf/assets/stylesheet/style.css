@@ -1,0 +1,313 @@
+header {
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+  position: relative;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.715);
+}
+.myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+/* Navigation */
+
+nav {
+  height: var(--nav-bar-height);
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 2.1vh;
+}
+
+.nav-container {
+  max-width: var(--main-content-width);
+}
+
+.brand {
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.nav-links li {
+  padding: 1vw;
+  text-transform: uppercase;
+}
+
+/* Break */
+
+.hero {
+  height: 100%;
+}
+
+.hero h6 {
+  padding-bottom: 5vh;
+}
+
+.hero h1 {
+  padding-bottom: 3vh;
+}
+
+/* Break */
+.program {
+  width: 100vw;
+  height: 100vh;
+}
+
+.program table td {
+  padding-left: 3vw;
+  padding-bottom: 10vh;
+}
+
+.table-container h6 {
+  padding-bottom: 2vh;
+}
+
+.table-container img {
+  padding-bottom: 2vh;
+}
+
+.table-container p {
+  padding-bottom: 10vh;
+}
+
+.card-text {
+  padding-left: 2vw;
+  text-align: left;
+}
+
+.card-text h6 {
+  padding-bottom: 1vh;
+}
+
+.card-text p {
+  padding-bottom: 1vh;
+  line-height: 1.5em;
+}
+
+/*  End  */
+
+.market-punch {
+  width: 100%;
+  height: 40vh;
+  background: rgba(0, 0, 0, 0.3) url("../media/cta-bg.jpg");
+  text-align: center;
+}
+
+.market-punch-container h3 {
+  text-transform: uppercase;
+  color: white;
+  padding-bottom: 2.5vh;
+}
+
+.market-punch-container p {
+  color: white;
+  padding-bottom: 2.5vh;
+  line-height: 1.5em;
+}
+
+/*  */
+
+/* .classes table {
+  border: 2px solid green;
+}
+
+.classes table td {
+  border: 1px solid red;
+} */
+
+.classes {
+  padding-bottom: 10vh;
+}
+
+.classes table td img {
+  vertical-align: top;
+}
+
+.classes .classes-td-left {
+  width: 100%;
+  padding: 3vh;
+  text-align: center;
+  /* border: 1px solid red; */
+  margin-bottom: 5vh;
+}
+
+.classes .classes-td-right {
+  width: 70%;
+  padding-left: 3vw;
+}
+
+.classes .classes-td-right img {
+  border-radius: 10px;
+}
+
+.classes .classes-td-right h5 {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.classes .classes-td-right p {
+  padding-bottom: 2vh;
+  line-height: 1.5em;
+  padding-right: 4vw;
+}
+
+.classes .classes-td-left img {
+  padding-right: 1vw;
+}
+
+.classes .classes-td-left span {
+  padding-right: 1vw;
+  font-size: 16spx;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+}
+
+.shadow {
+  box-shadow: 0px 0px 20px 0px rgba(178, 178, 178, 0.553);
+}
+
+.spanned-class {
+  position: relative;
+  top: -30px;
+}
+
+.schedules {
+  text-transform: capitalize;
+  color: white;
+  width: 100%;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+}
+
+/* End */
+
+.schedule {
+  background: rgba(0, 0, 0, 0.3) url(../media/schedule-bg.jpg);
+  width: 100vw;
+  height: 100vh;
+}
+
+.table-container-schedule table {
+  margin: 0 auto;
+}
+
+.table-container-schedule table caption {
+  padding: 50px;
+  color: white;
+}
+
+.table-container-schedule table td {
+  color: white;
+  padding: 35px;
+  border: 1px solid white;
+}
+
+/*  */
+
+.expert {
+  width: 25%;
+  box-shadow: 0px 0px 20px 0px rgba(178, 178, 178, 0.553);
+  border-radius: 5px;
+}
+
+.expert img {
+  padding: 20px;
+}
+
+.expert small {
+  padding: 0px 20px 20px 20px;
+  font-size: smaller;
+}
+
+.expert span {
+  padding: 0px 20px 20px 20px;
+}
+
+.expert p {
+  padding: 0px 20px 20px 20px;
+  color: var(--theme-grey);
+  line-height: 1.3em;
+}
+
+.expert div {
+  padding: 0px 20px 20px 20px;
+}
+
+.icons-social-expert i {
+  padding: 5px;
+}
+
+
+/*  */
+
+.map-form {
+  margin-top: 10vh;
+}
+
+iframe{
+  width: 100vw;
+  height: 50vh;
+  position: absolute;
+}
+
+.form-contact-us {
+  width: 50vw;
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  left: 50vw;
+}
+
+.form-item {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vw;
+  background-color: white;
+  margin: 2vw;
+  position: relative;
+  top: 2vw;
+  border-radius: 20px;
+
+}
+
+.form-item > form input {
+  margin-bottom: 3vh;
+  padding: 1em;
+}
+
+.form-item > form div {
+  width: 100%;
+}
+
+.name {
+  width: 49%;
+}
+
+.email  {
+  width: 50%;
+}
+
+footer {
+  width: 100vw;
+  height: 8vh;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  line-height: 8vh;
+}
+
+.message-btn {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+a:hover, button:hover {
+  cursor: pointer;
+}
